@@ -1,0 +1,54 @@
+/* Historia */
+.historia p {
+    font-size: 12px; /* 0.7rem */
+  }
+  
+  /* Contenedor de Personas */
+  .personas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para asegurar que las tarjetas se ajusten en pantallas más pequeñas */
+  }
+  
+  /* Estilo de Cada Persona */
+  .persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Espacio entre las filas */
+  }
+  
+  /* Imagen de Cada Persona */
+  .persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Títulos de las Personas */
+  .persona h5,
+  .persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+  }
+  
+  .persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .persona h6 {
+    font-size: 11px;
+    font-style: italic;
+  }
+  
+  /* Descripción de las Personas */
+  .persona p {
+    color: #666;
+    font-size: 10px;
+  }
+  
