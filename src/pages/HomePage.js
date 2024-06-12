@@ -1,11 +1,11 @@
 import React from 'react';
-import '../Styles/HomePage.css';
+import '../../Styles/HomePage.css';
 
-const HomePage = (props) => {
+const HomePage = () => {
   return (
     <main className="holder">
       <div className="homeimg">
-      <img src={`${process.env.PUBLIC_URL}/imagenes/home/img01.jpg`} alt="avion" />
+        <img src={`${process.env.PUBLIC_URL}/imagenes/home/img01.jpg`} alt="avion" />
       </div>
       <div className="columnas">
         <div className="bienvenidos left">
@@ -24,6 +24,9 @@ const HomePage = (props) => {
           </div>
         </div>
       </div>
+      <footer>
+        Diseñado por Ruben Hernan Pared - ©2024
+      </footer>
     </main>
   );
 }
