@@ -4,7 +4,7 @@ const Header = (props) => {
   return(
     <header>
       <div className="holder">
-        <img src="/imagenes/logo.png" width="100" alt="Transportes X" />
+        <img src="../../../public/Imagenes/logo.png" width="100" alt="Transportes X" />
         <h1>Transportes X</h1>
       </div>
     </header>
