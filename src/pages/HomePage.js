@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/HomePage.css';
+import '../Styles/HomePage.css';
 
 const HomePage = () => {
   return (
     <main className="holder">
       <div className="homeimg">
-        <img src={`${process.env.PUBLIC_URL}../../public/Imagenes/home/img01.jpg`} alt="avion" />
+        <img src={`${process.env.PUBLIC_URL}/imagenes/home/img01.jpg`} alt="avion" />
       </div>
       <div className="columnas">
         <div className="bienvenidos left">
@@ -32,4 +32,3 @@ const HomePage = () => {
 }
 
 export default HomePage;
-
