@@ -24,7 +24,7 @@ const NosotrosPage = () => {
         <h2>Staff</h2>
         <div className="personas">
           <div className="persona">
-            <img src={`${process.env.PUBLIC_URL}/imagenes/nosotros/nosotros1.jpg`} alt="Juan Gomez" />
+            <img src={`${process.env.PUBLIC_URL}/Imagenes/nosotros/nosotros1.jpg`} alt="Juan Gomez" />
             <h5>Juan Gomez</h5>
             <h6>Gerente General</h6>
             <p>
@@ -36,7 +36,7 @@ const NosotrosPage = () => {
             </p>
           </div>
           <div className="persona">
-            <img src={`${process.env.PUBLIC_URL}/imagenes/nosotros/nosotros2.jpg`} alt="Ana Rivera" />
+            <img src={`${process.env.PUBLIC_URL}/Imagenes/nosotros/nosotros2.jpg`} alt="Ana Rivera" />
             <h5>Ana Rivera</h5>
             <h6>Directora de Marketing</h6>
             <p>
@@ -47,7 +47,7 @@ const NosotrosPage = () => {
             </p>
           </div>
           <div className="persona">
-            <img src={`${process.env.PUBLIC_URL}/imagenes/nosotros/nosotros3.jpg`} alt="Luis Martinez" />
+            <img src={`${process.env.PUBLIC_URL}/Imagenes/nosotros/nosotros3.jpg`} alt="Luis Martinez" />
             <h5>Luis Martínez</h5>
             <h6>Jefe de Ventas</h6>
             <p>
@@ -58,7 +58,7 @@ const NosotrosPage = () => {
             </p>
           </div>
           <div className="persona">
-            <img src={`${process.env.PUBLIC_URL}/imagenes/nosotros/nosotros4.jpg`} alt="Sofia Castro" />
+            <img src={`${process.env.PUBLIC_URL}/Imagenes/nosotros/nosotros4.jpg`} alt="Sofia Castro" />
             <h5>Sofía Castro</h5>
             <h6>Gerente de Operaciones</h6>
             <p>
@@ -69,7 +69,7 @@ const NosotrosPage = () => {
             </p>
           </div>
           <div className="persona">
-            <img src={`${process.env.PUBLIC_URL}/imagenes/nosotros/nosotros5.jpg`} alt="Carlos Lopez" />
+            <img src={`${process.env.PUBLIC_URL}/Imagenes/nosotros/nosotros5.jpg`} alt="Carlos Lopez" />
             <h5>Carlos López</h5>
             <h6>Director Financiero</h6>
             <p>
