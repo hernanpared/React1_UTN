@@ -1,3 +1,5 @@
+// src/components/layout/Nav.js
+
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import '../../Styles/Nav.css'; 
@@ -38,6 +40,14 @@ const Nav = (props) => {
               className={({ isActive }) => (isActive ? 'activo' : '')}
             >
               Contacto
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
+              to="/servicios" 
+              className={({ isActive }) => (isActive ? 'activo' : '')}
+            >
+              Servicios
             </NavLink>
           </li>
         </ul>
