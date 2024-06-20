@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../Styles/ServiciosPage.css'; // Asegúrate de que la ruta sea correcta
+import '../Styles/ServiciosPage.css'; 
 
 const ServiciosPage = () => {
   return (
