@@ -44,6 +44,14 @@ const Nav = (props) => {
           </li>
           <li>
             <NavLink 
+              to="/galeria" 
+              className={({ isActive }) => (isActive ? 'activo' : '')}
+            >
+              Galería
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
               to="/contacto" 
               className={({ isActive }) => (isActive ? 'activo' : '')}
             >

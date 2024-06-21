@@ -1,3 +1,4 @@
+// src/App.js
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/layout/Header';
@@ -8,6 +9,7 @@ import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import NovedadesPage from './pages/NovedadesPage';
 import ServiciosPage from './pages/ServiciosPage';
+import GaleriaPage from './pages/GaleriaPage'; // Importa la nueva página
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path="/novedades" element={<NovedadesPage />} />
           <Route path="/contacto" element={<ContactoPage />} />
           <Route path="/servicios" element={<ServiciosPage />} />
+          <Route path="/galeria" element={<GaleriaPage />} /> {/* Añade la nueva ruta */}
         </Routes>
       </Router>
       <Footer />
